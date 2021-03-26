@@ -1,0 +1,2 @@
+source, has_expanded_access, condition, enrollment, textblock, intervention_type, is_fda_regulated_drug, is_fda_regulated_device, intervention_name, gender, minimum_age, maximum_age,healthy_volunteers, country, allocation, intervention_model,primary_purpose, masking, PMID_tokens, num_of_papers
+nct00000113, stony brook university, No, myopia, 470, evaluate whether progressive,  , NaN, NaN, progressive addition lenses, All, 6.0, 12.0, No, United States, Randomized, Parallel Assignment, Treatment, NaN, accomodation related risk factors, 3.0
