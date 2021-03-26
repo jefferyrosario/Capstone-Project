@@ -14,13 +14,15 @@ Company A is dedicated to bringing down the cost and improving the outcomes of t
 ## Contents
 
  
-tokens/                   - Directory containing the tokens for PMIDs
+Capstone Notebook.ipynb           - Jupyter Notebook 
 
-list_of_PMIDs0-29.csv     - Excel spreadsheet split into 29 sheets to run python script in parallel
+list_of_PMIDs0-29.csv             - Excel spreadsheet split into 29 sheets to run python script in parallel
 
-fetch_pdfs.py             - Python script to scrape .pdfs. Credits to https://github.com/billgreenwald/Pubmed-Batch-Download/blob/master/fetch_pdfs.py
+fetch_pdfs.py                     - Python script to scrape .pdfs. Credits to https://github.com/billgreenwald/Pubmed-Batch-Download/blob/master/fetch_pdfs.py
 
-df.pkl                    - Saved DataFrame
+Clinical Trials Presentation.pdf  -  Presentation 
+
+confusion_matrix.png              - Confusion Matrix
 
 
 
@@ -37,9 +39,12 @@ df.pkl                    - Saved DataFrame
 
 5. Get a classification report. Determine if the precision or recall is more important in this scenario. Precision of the Success variable was the most important in this case.
 
+The Confusion matrix below illustrates the true positive, false positive, true negative, and false negatives of the resulting predictions:
+
+![alttext](https://github.com/jefferyrosario/Capstone-Project/blob/master/confusion_matrix.png)
 
 
 
 ## Conclusion
 
-We were able to see modest improvements of the Logistic Regression with the inclusion of PMIDs. Overall accuracy of around 83% and precision score of 66%.
+We were able to see modest improvements of the Logistic Regression with the inclusion of PMIDs. Overall accuracy of around 83% and precision score of 66% were achieved for the successful outcomes.
